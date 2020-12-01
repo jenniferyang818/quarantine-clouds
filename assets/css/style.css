@@ -1,0 +1,159 @@
+body {
+    opacity: 0; 
+    transition: opacity 2s;
+    /* background-image: url(../pics/img/home.png); */
+
+    animation: colorChange ease 15s infinite; 
+}
+@keyFrames colorChange {
+    0% {
+        background-color: #96b1f5; 
+    }
+    25% {
+        background-color: #c7a9eb;
+    }
+    50% {
+        background-color: #f2c2ac; 
+    }
+    75% {
+        background-color: #c7a9eb;
+    }
+    100% {
+        background-color: #96b1f5; 
+    }
+
+}
+h1 {
+    animation: fadeIn ease 2s; 
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    text-align: center; 
+    position: absolute; 
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+@keyFrames fadeIn {
+    from {
+        opacity:0; 
+    } 
+    to {
+        opacity:1; 
+    }
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    position: absolute; 
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+
+}
+
+.header {
+    font-family: 'Actor', sans-serif;
+    display: inline; 
+    font-size: 25px; 
+    position: absolute; 
+    top: 5%; 
+    right: 10%; 
+    
+}
+
+.slidecontainer {
+    width: 100%; 
+}
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 75%; 
+    height: 10px; 
+    background: #FFFFFF; 
+    outline: none; 
+
+    position: absolute; 
+    top: 55%; 
+    left: 12%; 
+  }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 90px; 
+
+    background: #ffffff;
+    opacity: 1; 
+    cursor: pointer; 
+}
+  .slider::-moz-range-thumb {
+    width: 30px; 
+    height: 30px; 
+    background: #ffffff;
+    cursor: pointer; 
+  }
+
+p {
+    font-family: 'Actor', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#home {
+    font-weight: bolder;
+}
+#about {
+    
+}
+#mar {
+    position: absolute; 
+    top: 57%; 
+    left: 16%; 
+}
+ #may {
+    position: absolute; 
+    top: 57%; 
+    left: 29%; 
+}
+#jun {
+    position: absolute; 
+    top: 57%; 
+    left: 42%; 
+}
+#aug {
+    position: absolute; 
+    top: 57%; 
+    left: 55%; 
+}
+#sept {
+    position: absolute; 
+    top: 57%; 
+    left: 68%; 
+}
+#oct {
+    position: absolute; 
+    top: 57%; 
+    left: 81%; 
+} 
+#go, .navbar-item {
+   opacity: 0.7;  
+   text-decoration: none;
+   color: #062383; 
+   /* animation: bounce 2s infinite alternate;   */
+}
+/* @keyframes bounce {
+    from {
+        opacity: 0.2; 
+    }
+    to {
+        opacity: 1; 
+    }
+} */
+#go:hover, .navbar-item:hover{
+    opacity: 1;
+    text-decoration: underline; 
+}

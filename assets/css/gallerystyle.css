@@ -1,0 +1,146 @@
+body {
+    opacity: 0; 
+    transition: opacity 2s;
+    /* background-image: url(../pics/img/home\ copy.png); */
+    padding-bottom: 2350px; 
+    animation: colorChange ease 15s infinite; 
+}
+@keyFrames colorChange {
+    0% {
+        background-color: #96b1f5; 
+    }
+    25% {
+        background-color: #c7a9eb;
+    }
+    50% {
+        background-color: #f2c2ac; 
+    }
+    75% {
+        background-color: #c7a9eb;
+    }
+    100% {
+        background-color: #96b1f5; 
+    }
+
+} 
+
+#header {
+    font-family: 'Actor', sans-serif;
+    display: inline; 
+    font-size: 25px; 
+    position: absolute; 
+    top: 5%; 
+    right: 10%; 
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    text-align: center; 
+    position: absolute; 
+    top: 5%; 
+    left: 50%;  
+    transform: translateX(-50%); 
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center; 
+    position: absolute; 
+    top: 22%; 
+    left: 50%;  
+    transform: translateX(-50%);
+}
+/* h3 {
+    font-family: 'Actor', sans-serif; 
+    /* text-align: center; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%;  
+} */
+p {
+    font-family: 'Actor', sans-serif; 
+    text-align: center; 
+    width: 400px;
+    position: absolute; 
+    top: 65%; 
+    left: 50%;  
+    transform: translateX(-50%);
+}
+
+.item {
+    position: absolute; 
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.item1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 165px;
+}
+.item2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 570px;
+}
+.item3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 975px;
+}
+.row {
+    position: absolute; 
+    top: 250px; 
+}
+
+.row2 {
+    position: absolute; 
+    top: 600px; 
+}
+.row3 {
+    position: absolute; 
+    top: 950px; 
+}
+.row4 {
+    position: absolute; 
+    top: 1300px; 
+}
+.row5 {
+    position: absolute; 
+    top: 1650px; 
+}
+.row6 {
+    position: absolute; 
+    top: 2000px; 
+}
+
+/* .item1 {
+    position: absolute; 
+    top: 30%; 
+    left: 10%; 
+}
+.item2 {
+    position: absolute; 
+    top: 30%; 
+    left: 40%;
+}
+.item3 {
+    position: absolute; 
+    top: 30%; 
+    left: 70%; 
+} */
+
+.navbar-item {
+    opacity: 0.7;  
+    text-decoration: none;
+ }
+.navbar-item:hover{
+     opacity: 1;
+     text-decoration: underline; 
+ }
+
