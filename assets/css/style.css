@@ -10,13 +10,13 @@ body {
         background-color: #96b1f5; 
     }
     25% {
-        background-color: #c7a9eb;
+        background-color: #b88feb;
     }
     50% {
-        background-color: #f2c2ac; 
+        background-color: #eeaa8a; 
     }
     75% {
-        background-color: #c7a9eb;
+        background-color: #b88feb;
     }
     100% {
         background-color: #96b1f5; 
@@ -25,7 +25,8 @@ body {
 }
 h1 {
     animation: fadeIn ease 2s; 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif; font-style: normal; font-weight: 500;
+    color: #081748; 
     font-size: 70px;
     text-align: center; 
     position: absolute; 
@@ -42,8 +43,9 @@ h1 {
     }
 }
 h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif; font-style: normal; font-weight: 500;
     font-size: 30px;
+    color: #081748; 
     text-align: center;
     font-style: italic;
     position: absolute; 
@@ -54,13 +56,20 @@ h2 {
 }
 
 .header {
-    font-family: 'Actor', sans-serif;
+    font-family: 'Actor', sans-serif; font-style: normal; font-weight: 500;
     display: inline; 
     font-size: 25px; 
     position: absolute; 
     top: 5%; 
     right: 10%; 
-    
+}
+#home {
+    position: relative; 
+    right: 15%; 
+}
+#about {
+    position: relative; 
+    right: 7.5%; 
 }
 
 .slidecontainer {
@@ -71,7 +80,7 @@ h2 {
     appearance: none;
     width: 75%; 
     height: 10px; 
-    background: #FFFFFF; 
+    background: rgb(218, 216, 216); ; 
     outline: none; 
 
     position: absolute; 
@@ -86,63 +95,64 @@ h2 {
     height: 30px; 
     border-radius: 90px; 
 
-    background: #ffffff;
+    background: rgb(237, 235, 235); 
     opacity: 1; 
     cursor: pointer; 
 }
   .slider::-moz-range-thumb {
     width: 30px; 
     height: 30px; 
-    background: #ffffff;
+    background: rgb(237, 235, 235); 
     cursor: pointer; 
   }
 
 p {
-    font-family: 'Actor', sans-serif;
+    font-family: 'Actor', sans-serif; font-style: normal; font-weight: 500;
     font-size: 20px;
     text-align: center;
     
 }
-#home {
-    font-weight: bolder;
-}
-#about {
-    
-}
+
 #mar {
     position: absolute; 
     top: 57%; 
     left: 16%; 
+    color: rgb(237, 235, 235); 
 }
  #may {
     position: absolute; 
     top: 57%; 
     left: 29%; 
+    color: rgb(237, 235, 235); 
 }
 #jun {
     position: absolute; 
     top: 57%; 
     left: 42%; 
+    color: rgb(237, 235, 235); 
 }
 #aug {
     position: absolute; 
     top: 57%; 
     left: 55%; 
+    color: rgb(237, 235, 235); 
 }
 #sept {
     position: absolute; 
     top: 57%; 
     left: 68%; 
+    color: rgb(237, 235, 235); 
 }
 #oct {
     position: absolute; 
     top: 57%; 
     left: 81%; 
+    color: rgb(237, 235, 235); 
 } 
 #go, .navbar-item {
    opacity: 0.7;  
    text-decoration: none;
-   color: #062383; 
+   color: #081748; 
    /* animation: bounce 2s infinite alternate;   */
 }
 /* @keyframes bounce {
