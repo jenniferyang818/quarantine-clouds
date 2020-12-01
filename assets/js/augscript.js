@@ -1,5 +1,5 @@
 new TypeIt("#subtitle", {
-    speed: 70,
+    speed: 150,
     waitUntilVisible: true
   })
     .type("was hot", {delay: 300})

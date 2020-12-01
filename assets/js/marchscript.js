@@ -1,6 +1,6 @@
 new TypeIt("#subtitle", {
     strings: "bye bye berkeley",
-    speed: 70,
+    speed: 150,
     waitUntilVisible: true
 }).go();
 

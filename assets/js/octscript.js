@@ -1,5 +1,5 @@
 new TypeIt("#subtitle", {
     strings: "gray clouds galore",
-    speed: 70,
+    speed: 150,
     waitUntilVisible: true
   }).go();
