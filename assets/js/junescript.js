@@ -1,5 +1,5 @@
 new TypeIt("#subtitle", {
     strings: "summer at home",
-    speed: 150,
+    speed: 100,
     waitUntilVisible: true
   }).go();
